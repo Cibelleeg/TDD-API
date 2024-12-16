@@ -29,7 +29,7 @@ pd.set_option('display.max_rows', 20)
 
 # Parâmetros:
 symbols = ['MSFT','TSLA','GOOGL','AMZN','META','AAPL','INTC','ORCL','ADBE','NVDA']
-api_token = 'laBX57beRy2tvVGrQdqfluJRaHLjKFXPwsrC5BFw'
+api_token = 'sLnVmn2Rv8MAjQ2DgJfx8lMlWGlCJ8pyRZv74ZZn'
 url = http.client.HTTPSConnection('api.stockdata.org')
 data_inicial = '2024-11-25'
 
