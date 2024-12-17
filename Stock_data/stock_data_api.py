@@ -9,7 +9,7 @@ import plotly.graph_objects as go
 
 # Caminhos:
 caminho_local = os.getcwd()
-caminho_local = os.path.join(caminho_local, "Data_files")
+caminho_local = os.path.join(caminho_local, "stock_data\Data_files")
 
 # Função para criar pastas:
 def criar_pasta(caminho):
@@ -242,7 +242,8 @@ fig.update_layout(
     showlegend=True
 )
 
-fig.write_image("grafico_precos_acoes.jpg")
+fig.write_image("stock_data\grafico_precos_acoes.jpg")
+
 
 
 fig.show()
